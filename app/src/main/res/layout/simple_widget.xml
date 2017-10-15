@@ -7,14 +7,13 @@ android:layout_height="match_parent"
 android:padding="@dimen/widget_margin"
 android:background="#55000000">
 
-<ImageView
-    android:id="@+id/imageView"
-    android:layout_width="0dp"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:src="@drawable/aa"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/aa" />
 
-<TextView
+    <TextView
     android:id="@+id/textView"
     android:layout_width="0dp"
     android:layout_height="match_parent"
@@ -29,6 +28,7 @@ android:background="#55000000">
     android:layout_width="0dp"
     android:layout_height="match_parent"
     android:layout_weight="1"
-    android:text="Refresh"/>
+    android:text="Refresh"
+    android:background="@color/colorAccent"/>
 
 </LinearLayout>
